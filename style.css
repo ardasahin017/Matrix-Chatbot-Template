@@ -1,0 +1,47 @@
+body {
+    background-color: #000; /* Matrix siyahı arkaplan */
+    color: #00FF00; /* Matrix yeşili yazı fontu */
+    font-family: 'Courier New', Courier, monospace; /* Matrix benzeri font */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chatbox {
+    background-color: rgba(0, 255, 0, 0.1); /* Saydam Matrix yeşili */
+    border: 2px solid #00FF00; /* Matrix yeşili çerçeve */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#chat-output {
+    height: 200px;
+    overflow-y: auto;
+    border-bottom: 2px solid #00FF00; /* Matrix yeşili çerçeve */
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: calc(100% - 22px);
+    padding: 5px;
+    border: 2px solid #00FF00; /* Matrix yeşili çerçeve */
+    background: transparent;
+    color: #00FF00; /* Matrix yeşili yazı fontu */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00FF00; /* Matrix yeşili buton arkaplan */
+    color: #000; /* Matrix siyahı yazı fontu */
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Butonu aşağı kaydırma */
+}
